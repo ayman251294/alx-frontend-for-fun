@@ -1,0 +1,54 @@
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a custom background color for the body */
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the container with flexbox */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px; /* Add some spacing around the container */
+  }
+  
+  /* Style each box with custom colors */
+  .box {
+    flex: 1;
+    min-width: calc(33.33% - 20px); /* Adjust for equal-width boxes with spacing */
+    height: 150px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Text color for all boxes */
+  }
+  
+  .box1 {
+    background-color: #3498db; /* Custom color for box 1 */
+  }
+  
+  .box2 {
+    background-color: #e74c3c; /* Custom color for box 2 */
+  }
+  
+  .box3 {
+    background-color: #2ecc71; /* Custom color for box 3 */
+  }
+  
+  .box4 {
+    background-color: #f1c40f; /* Custom color for box 4 */
+  }
+  
+  .box5 {
+    background-color: #9b59b6; /* Custom color for box 5 */
+  }
