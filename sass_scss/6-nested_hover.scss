@@ -1,9 +1,7 @@
 /* Sass file to style button tags */
-$color0: #FF0000;
-$color1: #00FF00;
 button {
-  color: $color0;
-  &:hover {
-    color: $color1;
-  }
-}
+	color: #FF0000;
+	&:hover {
+		color: #00FF00;
+		}
+	}
